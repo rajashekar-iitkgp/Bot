@@ -18,7 +18,7 @@ An AI-powered web application that generates production-ready HTML and Vanilla C
 - **Fast Generation** - Powered by Gemini Flash Latest
 
 ## Architecture
-
+```
 ┌─────────────────┐      ┌──────────────┐
 │  Next.js        │─────▶│  FastAPI     │
 │  Frontend       │      │  Backend     │
@@ -28,8 +28,7 @@ An AI-powered web application that generates production-ready HTML and Vanilla C
 │  - PreviewPanel │      │  - Prompts   │
 │  - FullScreen   │      │  - Logging   │
 └─────────────────┘      └──────────────┘
-
-
+```
 ## Quick Start
 
 ### Prerequisites
@@ -108,7 +107,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Language:** Python 3.9+
 
 ## Project Structure
-
+```
 bot/
 ├── frontend/
 │   ├── app/
@@ -128,7 +127,7 @@ bot/
     │   └── prompts.yaml       # System prompts
     ├── main.py                # FastAPI app
     └── requirements.txt       # Python dependencies
-
+```
 ### Configuration
 
 ### Backend (`backend/.env`)
