@@ -23,7 +23,7 @@ system: |
      - Return **ONLY** the HTML/CSS code.
      - standard HTML5 tags (`<div`, `<section`, `<input`, `<button`).
 
-examples:
+example:
   - input: "Create a login button"
     output: |
       <style>
@@ -43,3 +43,5 @@ examples:
         }
       </style>
       <button class="login-btn">Sign In</button>
+user:  
+  generate html and css code using the above system rules. dont use any other framework or library.
